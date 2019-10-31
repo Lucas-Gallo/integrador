@@ -1,0 +1,206 @@
+
+
+.parrafos1 {
+	color: white;
+	font-size: 25px;
+	letter-spacing: 3px;
+	line-height: : 15px;	
+  width: 700px;
+  height: 400px;
+  margin: 0px 0px 0px 50px;
+  padding left: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+
+header { 
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;	
+  margin: 50px 0px 0px 15px;
+}
+
+
+.registrate {
+  width: 300px; 
+  padding: 40px 0px 15px 25px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: black; 
+}
+
+.registrate:hover {
+	background-color: #34C20C;
+}
+/* The navigation menu */
+.menu {
+  overflow: hidden;
+  width: 1000px;	
+}
+
+/* Navigation links */
+.menu a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* The subnavigation menu */
+.submenu {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.submenubtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.menu a:hover, .submenu:hover .submenubtn { 
+  color: #CD712D;
+}
+
+/* Style the subnav content - positioned absolute */
+.submenu-contenido {
+  display: none;
+  position: absolute;
+  width: 13%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.submenu-contenido a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 12px 16px;
+}
+.lista {
+  clear:left;
+  list-style: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Add a grey background color on hover */
+.submenu-contenido a:hover {
+  color: #CD712D;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.submenu:hover .submenu-contenido {
+  display: block;
+}
+
+.tittabla {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	background-color: #BEFEAC;
+}
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+
+}
+
+.divpie1 {
+	
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+	width: 750px;
+	float: left;
+  margin-left: 30px;
+	margin-top: 15px;
+}
+
+
+.divpie2 {
+	
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+.pie {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.divdes {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  text-align: justify;
+}
+
+.divdes1 {
+  width: 900px;
+  height: 700px;
+  float: left;
+}
+
+.volver {
+  float:right;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin-right: 100px;
+  margin-top: 25px;
+}
+
+.volver a:hover {
+  color: #CD712D;
+}
+
+.divcena {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  color: #934105;
+  text-align: justify;
+
+}
+
+.divcena1 {
+  width: 350px;
+  height: 700px;
+  float: left;
+}
+.divcol {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1500px;
+}
+
+.divcol1 {
+  width: 300px;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  color: #934105;
+  text-align: justify;
+}
+
+.divcol2 {
+  width: 300px
+
+}
